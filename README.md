@@ -25,7 +25,7 @@ JavaScript (ES6) – task management logic, localStorage persistence, dynamic re
 
 ├── index.html      # Main To-Do app UI <br>
 ├── style.css       # Modern styling (cards, buttons, dialogs, responsiveness) <br>
-├── app.js          # Core task management logic <br>
+├── script.js          # Core task management logic <br>
 ├── screenshot.png  # Project preview <br>
 └── README.md       # Project documentation <br>
 
@@ -75,5 +75,6 @@ Special thanks to Oasis Infobyte (OIBSIP) for the opportunity and guidance.
 ## 📢 Connect with Me  
 
 🔗 [LinkedIn](https://www.linkedin.com/in/kunal-jadhav-kj) | 🌐 [GitHub](https://github.com/kunal-web3)
+
 
 ---
