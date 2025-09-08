@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Modern To-Do</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <h1 class="brand">To-Do WebApp</h1>
+      <span class="badge">Smart Task Manager</span>
+    </header>
+
+    <section class="composer card">
+      <div class="head">
+        <h2 class="title">Add Task</h2>
+        <p class="sub">Press <kbd>Enter</kbd> to add quickly</p>
+      </div>
+      <div class="input-row">
+        <input id="taskInput" type="text" placeholder="What do you need to do?" autocomplete="off" />
+        <button id="addBtn" class="btn primary">Add</button>
+      </div>
+    </section>
+
+    <section class="lists card">
+      <div class="lists-grid">
+        <div class="list-col">
+          <div class="list-head">
+            <h3>Pending</h3>
+            <span class="count" id="pendingCount">0</span>
+          </div>
+          <div id="pendingList" class="list"></div>
+        </div>
+        <div class="list-col">
+          <div class="list-head">
+            <h3>Completed</h3>
+            <span class="count ok" id="completedCount">0</span>
+          </div>
+          <div id="completedList" class="list"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Edit Modal -->
+    <dialog id="editDialog" class="dialog">
+      <form method="dialog" class="dialog-body">
+        <h4>Edit task</h4>
+        <input id="editInput" type="text" />
+        <div class="dialog-actions">
+          <button value="cancel" class="btn ghost">Cancel</button>
+          <button id="saveEditBtn" value="default" class="btn primary">Save</button>
+        </div>
+      </form>
+    </dialog>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
