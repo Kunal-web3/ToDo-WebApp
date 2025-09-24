@@ -7,7 +7,7 @@ It allows users to add, edit, delete, and complete tasks with persistent storage
 
 ## 🚀 Live Demo
 
-🔗 [Try it here](https://kunal-web3.github.io/OIBSIP-ToDo-WebApp-3/) 
+🔗 [Try it here](https://kunal-web3.github.io/ToDo-WebApp/) 
 
 ---
 
@@ -68,7 +68,7 @@ Through this project, I learned:
 
 ## 🙌 Acknowledgement
 
-Special thanks to Oasis Infobyte (OIBSIP) for the opportunity and guidance.
+Special thanks to Elevate Labs for the opportunity and guidance.
 
 ---
 
@@ -78,3 +78,4 @@ Special thanks to Oasis Infobyte (OIBSIP) for the opportunity and guidance.
 
 
 ---
+
